@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #121212;
+  --foreground: #1e1e1e;
+  --primary: #ffffff;
+  --secondary: #aab4c8;
+  --accent: #3b82f6;
+  --tag-bg: #2a2a2a;
+  --tag-text: #60a5fa;
+  --tag-border: #3b82f6;
+}
+
+body {
+  background: var(--background);
+  color: var(--primary);
+}
+
+.tag {
+  border: 1px solid var(--tag-border);
+  color: var(--tag-text);
+}
