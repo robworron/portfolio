@@ -49,7 +49,7 @@ export default function WebsiteCard({
         </p>
         <div className="flex flex-wrap gap-2">
           {features.length > 0 &&
-            features.map((feature, index) => (
+            features.map((feature) => (
               <div
                 key={feature}
                 className="flex justify-center items-center min-w-20 p-1 px-2 bg-[var(--tag-bg)] rounded-3xl text-xs tag"

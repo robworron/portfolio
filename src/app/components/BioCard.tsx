@@ -26,12 +26,9 @@ export default function BioCard() {
         </header>
         <hr className="h-px border-0 bg-gray-700 opacity-50" />
         <p className="text-sm md:text-base">
-          I'm a front-end web developer based in Niagara with a computer science
-          background. I build clean, responsive, and accessible web applications
-          using React, TypeScript, and Tailwind CSS. My work focuses on strong
-          fundamentals, thoughtful UI, and building production-ready interfaces
-          for real users. I also have experience working with APIs and backend
-          services in Python.
+          {
+            "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS. My work focuses on strong fundamentals, thoughtful UI, and building production-ready interfaces for real users. I also have experience working with APIs and backend services in Python."
+          }
         </p>
         <hr className="h-px border-0 bg-gray-700 opacity-50" />
         <ul className="flex flex-col gap-2 text-sm md:text-base">

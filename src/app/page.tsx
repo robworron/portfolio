@@ -2,7 +2,6 @@
 
 import BioCard from "./components/BioCard";
 import WebsiteSection from "./components/WebsiteSection";
-import DevelopmentSection from "./components/DevelopmentSection";
 
 export default function HomePage() {
   return (
