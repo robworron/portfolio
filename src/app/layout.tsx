@@ -5,7 +5,7 @@ export const metadata = {
   title: {
     default: "Rob Worron - Web Developer"
   },
-  description: "A Next.js project template with Geist UI and Tailwind CSS.",
+  description: "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
