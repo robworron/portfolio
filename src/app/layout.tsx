@@ -2,6 +2,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
+  title: {
+    default: "Rob Worron - Web Developer"
+  },
+  description: "A Next.js project template with Geist UI and Tailwind CSS.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
