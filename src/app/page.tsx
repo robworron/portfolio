@@ -1,6 +1,7 @@
 "use client";
 
 import BioCard from "./components/BioCard";
+import DevelopmentSection from "./components/DevelopmentSection";
 import WebsiteSection from "./components/WebsiteSection";
 
 export default function HomePage() {
@@ -8,6 +9,7 @@ export default function HomePage() {
     <main className="flex flex-col gap-12 max-w-6xl mx-auto p-6">
       <BioCard />
       <WebsiteSection />
+      <DevelopmentSection />
     </main>
   );
 }

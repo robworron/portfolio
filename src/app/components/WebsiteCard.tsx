@@ -1,7 +1,7 @@
 import Button from "@/app/components/Button";
 import Image from "next/image";
 
-type CardProps = {
+type WebsiteCardProps = {
   title?: string;
   description?: string;
   features: string[];
@@ -21,7 +21,7 @@ export default function WebsiteCard({
   imageSrc,
   imageAlt,
   websiteURL,
-}: CardProps) {
+}: WebsiteCardProps) {
   return (
     <article className="flex w-full h-auto bg-[var(--foreground)] py-4 md:py-6 my-auto rounded-lg hover:scale-105 transition-transform duration-300">
       <div className="flex flex-col gap-6 flex-1 px-2 md:px-6">
@@ -59,7 +59,7 @@ export default function WebsiteCard({
             ))}
         </div>
         <div className="m-auto">
-          <Button url={websiteURL} />
+          <Button url={websiteURL} newTab />
         </div>
       </div>
       <div className="hidden lg:flex flex-col gap-6 flex-1 my-auto px-4">
