@@ -43,6 +43,26 @@ export default function WebsiteSection() {
           imageAlt="Ozzy Renos Website Image"
           websiteURL="https://www.ozzyrenos.ca/"
         />
+        <WebsiteCard
+          title="Dr. John Mignelli Chiropractic"
+          description="Dr. John Mignelli provides chiropractic care in Niagara Falls. This website offers a professional space where clients can learn about Dr. Mignelli, explore his services, and book appointments through Formspree. Built with Next.js and deployed on Vercel, the site focuses on performance, accessibility, responsive design, and SEO to support strong local visibility and a smooth user experience."
+          features={[
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind",
+            "Vercel",
+            "Responsive",
+            "Formspree",
+            "Elfsight",
+            "SEO",
+          ]}
+          wordmarkSrc="/mignelli-wordmark.png"
+          wordmarkAlt="Dr. John Mignelli Wordmark"
+          imageSrc="/mignelli-thumbnail.png"
+          imageAlt="Dr. John Mignelli Website Image"
+          websiteURL="https://www.drjohnmignellidc.ca/"
+        />
       </div>
     </section>
   );
