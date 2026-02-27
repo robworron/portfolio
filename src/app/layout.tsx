@@ -1,11 +1,11 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-export const metadata = {
-  title: {
-    default: "Rob Worron - Web Developer"
-  },
-  description: "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS.",
+export const metadata: Metadata = {
+  title: "Rob Worron - Web Developer",
+  description:
+    "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
