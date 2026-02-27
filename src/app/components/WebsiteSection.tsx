@@ -61,7 +61,7 @@ export default function WebsiteSection() {
           wordmarkAlt="Dr. John Mignelli Wordmark"
           imageSrc="/mignelli-thumbnail.png"
           imageAlt="Dr. John Mignelli Website Image"
-          websiteURL="https://www.drjohnmignellidc.ca/"
+          websiteURL="https://www.johnmignellichiropractic.ca/"
         />
       </div>
     </section>
