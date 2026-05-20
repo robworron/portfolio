@@ -24,8 +24,8 @@ export default function WebsiteSection() {
           websiteURL="https://cmhlniagara.com/"
         />
         <WebsiteCard
-          title="Ozzy Renos"
-          description="A showcase website for a Niagara-based contractor and renovator, featuring Formspree-powered contact forms, live Google Reviews via Elfsight, and SEO-optimized structure. Built with TypeScript, Next.js, and Tailwind CSS, it's fully responsive to ensure an optimal experience on all devices."
+          title="Olympia Mortgage Group"
+          description="With over 35 years of combined experience, Olympia Mortgage Group brings a unique blend of residential construction and real estate expertise to the mortgage industry. This website serves as a platform to give the company credibility and provide a space for clients to learn about their services. Built with Next.js and deployed on Vercel, this site focuses on responsive design, and SEO to support strong local visibility and provide a smooth user experience across all devices."
           features={[
             "TypeScript",
             "React",
@@ -34,14 +34,13 @@ export default function WebsiteSection() {
             "Vercel",
             "Responsive",
             "Formspree",
-            "Elfsight",
             "SEO",
           ]}
-          wordmarkSrc="/ozzyrenos-wordmark.png"
-          wordmarkAlt="Ozzy Renos Wordmark"
-          imageSrc="/ozzyrenos-thumbnail.png"
-          imageAlt="Ozzy Renos Website Image"
-          websiteURL="https://www.ozzyrenos.ca/"
+          wordmarkSrc="/olympia-wordmark.png"
+          wordmarkAlt="Olympia Mortgage Group Wordmark"
+          imageSrc="/olympia-thumbnail.png"
+          imageAlt="Olympia Mortgage Group Website Image"
+          websiteURL="https://www.olympiamortgagegroup.com/"
         />
         <WebsiteCard
           title="Dr. John Mignelli Chiropractic"
@@ -62,6 +61,26 @@ export default function WebsiteSection() {
           imageSrc="/mignelli-thumbnail.png"
           imageAlt="Dr. John Mignelli Website Image"
           websiteURL="https://www.johnmignellichiropractic.ca/"
+        />
+        <WebsiteCard
+          title="Ozzy Renos"
+          description="A showcase website for a Niagara-based contractor and renovator, featuring Formspree-powered contact forms, live Google Reviews via Elfsight, and SEO-optimized structure. Built with TypeScript, Next.js, and Tailwind CSS, it's fully responsive to ensure an optimal experience on all devices."
+          features={[
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind",
+            "Vercel",
+            "Responsive",
+            "Formspree",
+            "Elfsight",
+            "SEO",
+          ]}
+          wordmarkSrc="/ozzyrenos-wordmark.png"
+          wordmarkAlt="Ozzy Renos Wordmark"
+          imageSrc="/ozzyrenos-thumbnail.png"
+          imageAlt="Ozzy Renos Website Image"
+          websiteURL="https://www.ozzyrenos.ca/"
         />
       </div>
     </section>
