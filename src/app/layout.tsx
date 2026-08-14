@@ -7,12 +7,13 @@ export const metadata: Metadata = {
   verification: { google: "lI1vo6XjEPaeK7fonWtQzRDhdvErxRG4AoqS0QE4FXY" },
   title: "Rob Worron - Full-Stack Web Developer | Niagara",
   description:
-    "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+    "Full-stack web developer based in Niagara building fast, accessible web apps with React, Next.js, and TypeScript.",
 
   openGraph: {
+    siteName: "Rob Worron - Full-Stack Web Developer | Niagara",
     title: "Rob Worron - Full-Stack Web Developer | Niagara",
     description:
-      "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Full-stack web developer based in Niagara building fast, accessible web apps with React, Next.js, and TypeScript.",
     url: "https://www.robworron.ca/",
     images: [
       {
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rob Worron - Full-Stack Web Developer | Niagara",
     description:
-      "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+      "Full-stack web developer based in Niagara building fast, accessible web apps with React, Next.js, and TypeScript.",
     images: ["https://www.robworron.ca/robworron-wide.png"],
   },
 
