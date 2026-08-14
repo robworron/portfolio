@@ -6,9 +6,10 @@
   --primary: #ffffff;
   --secondary: #aab4c8;
   --accent: #3b82f6;
-  --tag-bg: #2a2a2a;
-  --tag-text: #60a5fa;
-  --tag-border: #3b82f6;
+}
+
+html {
+  overflow-anchor: none;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   color: var(--primary);
 }
 
-.tag {
-  border: 1px solid var(--tag-border);
-  color: var(--tag-text);
+.focus-ring:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }

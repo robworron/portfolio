@@ -5,15 +5,15 @@ const LIST_ITEM_LAYOUT =
 const ITEM_SPACING = "col-span-9 md:col-span-15 flex items-center";
 const ICON_SIZE_CLASS = "w-6 h-6 md:w-8 md:h-8";
 
-export default function BioCard() {
+export default function BioSection() {
   return (
     <section className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
-      <figure className="flex flex-col w-4/5 lg:w-1/4 items-center">
+      <figure className="flex flex-col w-4/5 lg:w-1/3 items-center">
         <Image
           src="/robworron.png"
           alt="Rob Worron"
-          width={300}
-          height={300}
+          width={600}
+          height={600}
           className="rounded-full"
         />
       </figure>
@@ -22,12 +22,12 @@ export default function BioCard() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Rob Worron
           </h1>
-          <h2 className="text-lg lg:text-xl">Front-End Web Developer</h2>
+          <p className="text-lg lg:text-xl">Full-Stack Web Developer</p>
         </header>
         <hr className="h-px border-0 bg-gray-700 opacity-50" />
         <p className="text-sm md:text-base">
           {
-            "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS. My work focuses on strong fundamentals, thoughtful UI, and building production-ready interfaces for real users. I also have experience working with APIs and backend services in Python."
+            "I'm a full-stack web developer based in Niagara with a computer science degree. I build clean, responsive, production-ready web apps with React, Next.js, and TypeScript - handling everything from the UI to server-side data fetching, custom API routes, caching, and third-party integrations. I focus on strong fundamentals, accessible and SEO-friendly interfaces, and shipping real products for real users."
           }
         </p>
         <hr className="h-px border-0 bg-gray-700 opacity-50" />
@@ -38,8 +38,9 @@ export default function BioCard() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              stroke="currentColor"
+              stroke="var(--accent)"
               className={ICON_SIZE_CLASS}
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
@@ -57,8 +58,9 @@ export default function BioCard() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              stroke="currentColor"
+              stroke="var(--accent)"
               className={ICON_SIZE_CLASS}
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
@@ -81,8 +83,9 @@ export default function BioCard() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              stroke="currentColor"
+              stroke="var(--accent)"
               className={ICON_SIZE_CLASS}
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
@@ -91,16 +94,19 @@ export default function BioCard() {
               />
             </svg>
             <div className={ITEM_SPACING}>
-              <a href="mailto:rworron94@gmail.com">rworron94@gmail.com</a>
+              <a href="mailto:rworron94@gmail.com" className="focus-ring">
+                rworron94@gmail.com
+              </a>
             </div>
           </li>
           <li className={LIST_ITEM_LAYOUT}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
+              fill="var(--accent)"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               className={ICON_SIZE_CLASS}
+              aria-hidden="true"
             >
               <path d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.66-.23.66-.5v-1.69c-1.77.6-2.36-1.31-2.36-1.31a2.69 2.69 0 0 0-1.14-1.5c-.91-.62.07-.6.07-.6a2.1 2.1 0 0 1 1.53 1 2.15 2.15 0 0 0 2.91.83 2.16 2.16 0 0 1 .63-1.34C8 16.17 5.62 15.31 5.62 11.5a3.87 3.87 0 0 1 1-2.71 3.58 3.58 0 0 1 .1-2.64s.84-.27 2.75 1a9.63 9.63 0 0 1 5 0c1.91-1.29 2.75-1 2.75-1a3.58 3.58 0 0 1 .1 2.64 3.87 3.87 0 0 1 1 2.71c0 3.82-2.34 4.66-4.57 4.91a2.39 2.39 0 0 1 .69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2Z" />
             </svg>
@@ -109,6 +115,7 @@ export default function BioCard() {
                 href="https://github.com/robworron"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="focus-ring"
               >
                 https://github.com/robworron
               </a>
@@ -117,7 +124,7 @@ export default function BioCard() {
           <li className={LIST_ITEM_LAYOUT}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
+              fill="var(--accent)"
               viewBox="0 0 32 32"
               className={ICON_SIZE_CLASS}
               aria-hidden="true"
@@ -129,6 +136,7 @@ export default function BioCard() {
                 href="https://www.linkedin.com/in/rob-worron/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="focus-ring"
               >
                 https://www.linkedin.com/in/rob-worron/
               </a>

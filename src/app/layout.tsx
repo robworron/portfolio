@@ -3,9 +3,34 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rob Worron - Web Developer",
+  metadataBase: new URL("https://www.robworron.ca"),
+  title: "Rob Worron - Full-Stack Web Developer | Niagara",
   description:
-    "I'm a front-end web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, TypeScript, and Tailwind CSS.",
+    "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+
+  openGraph: {
+    title: "Rob Worron - Full-Stack Web Developer | Niagara",
+    description:
+      "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+    url: "https://www.robworron.ca/",
+    images: [
+      {
+        url: "https://www.robworron.ca/robworron-wide.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Rob Worron - Full-Stack Web Developer | Niagara",
+    description:
+      "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+    images: ["https://www.robworron.ca/robworron-wide.png"],
+  },
+
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -13,6 +38,7 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-touch-icon.png",
   },
+
   manifest: "/site.webmanifest",
 };
 
@@ -29,11 +55,31 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Rob Worron",
+    jobTitle: "Full-Stack Web Developer",
+    url: "https://www.robworron.ca/",
+    sameAs: [
+      "https://www.linkedin.com/in/rob-worron/",
+      "https://github.com/robworron",
+    ],
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "Brock University",
+    },
+  };
+
   return (
-    <html lang="en">
+    <html lang="en-CA">
       <body
         className={`${geistSans.className} ${geistMono.className} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
         {children}
       </body>
     </html>
