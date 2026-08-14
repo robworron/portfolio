@@ -4,6 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.robworron.ca"),
+  verification: { google: "lI1vo6XjEPaeK7fonWtQzRDhdvErxRG4AoqS0QE4FXY" },
   title: "Rob Worron - Full-Stack Web Developer | Niagara",
   description:
     "I'm a full-stack web developer based in Niagara with a computer science background. I build clean, responsive, and accessible web applications using React, Next.js, TypeScript, and Tailwind CSS.",
