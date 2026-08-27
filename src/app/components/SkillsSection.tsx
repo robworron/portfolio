@@ -31,6 +31,7 @@ export default function SkillsSection() {
           </div>
           <div className={SKILL_LIST_STYLE}>
             <h3 className={SKILL_LIST_ITEM_HEADER_STYLE}>Backend & Data</h3>
+            <SkillTag skill="SQL" />
             <SkillTag skill="Next.js API Routes" />
             <SkillTag skill="REST API" />
             <SkillTag skill="Google Sheets API" />
